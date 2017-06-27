@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>globallocal</title>
+<script type="text/javascript">
+
+
+function write_name(){
+
+var welcome_parra=document.getElementById('welcome');
+var name=document.getElementById('name');
+var name1=document.getElementById('name1');
+var email=document.getElementById('email');
+welcome_parra.innerHTML="welcome" +" " + name.value +" "+name1.value +" "+email.value ;
+}
+
+</script>
+</head>
+<body>
+<p id="welcome"></p>
+<form>
+		First Name:<input type="text" id="name"><br><br>
+		Last Name:<input type="text" id="name1"><br><br>
+		Email id:<input type="text" id="email"><br><br>
+		password:<input type="text" id="password"><br><br>
+
+		<input type="button" value="sign up" onclick="write_name();">
+	</form>
+	</body>
+	</html>

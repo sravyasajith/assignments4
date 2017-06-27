@@ -1,0 +1,19 @@
+<html>
+<head>
+<title> area of triangle</title>
+</head>
+<script Langu="text/javaScript">
+var str1 = "baabtra ";
+ var str2 = "mentoring";
+ var str3 = "partner";
+function contact(str1,str2,str3){
+
+	alert(str1+" "+str2+" "+str3);
+
+}
+contact(str1,str2,str3);
+    </script>
+<body>
+</body>
+</html>
+

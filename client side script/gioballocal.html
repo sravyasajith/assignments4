@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>globallocal</title>
+<script type="text/javascript">
+document.write("Global <br><br>");
+var champion ="apple";//globally
+function printchampion(){
+document.write(champion+" "  +  "inside function <br> <br>");
+
+}
+printchampion();
+document.write(champion+" " + "outside function <br><br>");
+document.write("local  <br><br>");
+function printvaraiable(){
+	var variable ="apple";
+
+document.write(champion+" "  +  "inside function <br> <br>");
+
+}
+printvaraiable();
+document.write(varable+ " "+ "inside functin <br> <br>");
+
+</script>
+</head>
+<body>
+	
+</body>
+</html>
+
