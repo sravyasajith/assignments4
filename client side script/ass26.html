@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>images</title>
+<script type="text/javascript">
+var image_tracker='t';
+function change(){
+var image =document.getElementById('social');
+if(image_tracker=='t'){
+image.src='images/gree1.jpeg';
+image_tracker='t';
+
+}
+else{
+image.src='images/gree.jpeg';
+image_tracker ='t';
+}
+}
+setTimeout('change()',2000);
+
+</script>
+</head>
+<body>
+	<img src='images/gree.jpeg' id="social" onclick="change()";>
+</body>
+</html>
